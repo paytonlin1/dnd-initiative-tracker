@@ -1,0 +1,13 @@
+.encounter-name {
+    flex-grow: 1;
+    display: flex;
+}
+
+.grid-head{
+    display: inline-block;
+    float: none;
+}
+
+.grid-element {
+    display: table-row;
+}
