@@ -3,11 +3,15 @@
     display: flex;
 }
 
-.grid-head{
-    display: inline-block;
-    float: none;
+.grid-element {
+    float:left;
 }
 
-.grid-element {
-    display: table-row;
+label{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    
 }

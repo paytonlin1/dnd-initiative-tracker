@@ -1,22 +1,18 @@
 <!DOCTYPE html>
+<title>Melwood Initiative Tracker></title>
+<meta content="width=device-width, initial-scale=1" name="viewport" charset="UTF-8"/>
+<script></script>
 <head>        
-    <title>Melwood Initiative Tracker</title>
     <link rel= "stylesheet" href = "style.css">
 </head>
     <body>
         <div><input type="text" title="Rename" id="encounter-name" placeholder="Enter Encounter Name"></div>
-            <div class="grid-head">
-                <div class= "th">Initiative</div>
-                <div class= "th" style="display: table-row;">Name</div>
-                <div class= "th" style="display: table-row;">Health</div>
-                <div class= "th">Notes</div>
-            </div>
 
         <div class="grid-body">
-            <div class="grid-element"><input title="Initiative" type="number" class="Initiative"></div>
-            <div class="grid-element"><input title="Name" type="text" class="Name"></div>
-            <div class="grid-element"><input title="Health" type="number" class="Health"></div>
-            <div class="grid-element"><input title="Additional Notes" type="text" class="Notes"></div>
+            <div class="grid-element"><input title="Initiative" type="number" name="Initiative"><label for="Initiative">Initiative</label></div>
+            <div class="grid-element"><input title="Name" type="text" name="Name"><label for="Name">Name</label></div>
+            <div class="grid-element"><input title="Health" type="number" name="Health"><label for="Health">Health</label></div>
+            <div class="grid-element"><input title="Additional Notes" type="text" name="Notes"><label for="Notes">Notes</label></div>
         </div>
     </body>
 </html>
