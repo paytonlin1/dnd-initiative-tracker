@@ -5,13 +5,8 @@
 
 .grid-element {
     float:left;
-}
+} 
 
-label{
+input, label{
     display: flex;
-    flex-direction: column;
-}
-
-input{
-    
 }
