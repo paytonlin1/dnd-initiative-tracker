@@ -10,9 +10,23 @@
 
         <div class="grid-body">
             <div class="grid-element"><label for="Initiative">Initiative</label><input title="Initiative" type="number" name="Initiative"></div>
-            <div class="grid-element"><label for="Name">Name</label><input title="Name" type="text" name="Name"></div>
-            <div class="grid-element"> <label for="Health">Health</label><input title="Health" type="number" name="Health"></div>
+            <div class="grid-element"><label for="Name">Name</label><input title="Name" type="text" name="Name" list="monsters"></div>
+            <div class="grid-element"><label for="Health">Health</label><input title="Health" type="number" name="Health"></div>
             <div class="grid-element"><label for="Notes">Notes</label><input title="Additional Notes" type="text" name="Notes"></div>
+            <br>
         </div>
+
+        <div class ="grid-duplicates">
+            <div class="grid-element"><input title="Initiative" type="number" name="Initiative"></div>
+            <div class="grid-element"><input title="Name" type="text" name="Name" list="monsters"></div>
+            <div class="grid-element"><input title="Health" type="number" name="Health"></div>
+            <div class="grid-element"><input title="Additional Notes" type="text" name="Notes"></div>
+        </div>
+
+        <!--<datalist id = "monsters">
+            <option value = "poo">
+            <option value ="pee">   
+            <option value = "balls">
+        </datalist>   was thinking about adding a monster dropdown but there are like 500+ monsters so maybe not unless i can figure out how to use an external file for it-->
     </body>
 </html>
